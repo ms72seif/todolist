@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= Y, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>todo List</title>
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+
+<body>
+    <main>
+        <h1>todo List javascript(ms-seif.ir)</h1>
+        <div class="tdList">
+            <input id="intext" type="text" placeholder="enter your statement">
+            <button onclick="_add()">add</button>
+            <button onclick="_cng()" id="cng" style="background-color: green;">change</button>
+            <ul>
+                <li class="lil">
+                    <strong>your text</strong>
+                    <div>
+                        <span onclick="_edit(this)"><i class="material-icons">edit</i></span>
+                        <span onclick="_del(this)"><i class="material-icons">delete</i></span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </main>
+</body>
+<script src="js/master.js"></script>
+
+</html>
